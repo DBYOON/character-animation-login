@@ -1,35 +1,13 @@
 /* Common CSS */
-body{ 
-	background:#fff; 
-	font-family:'Noto Sans KR',sans-serif;
-}
-input{
-	width: 93%;
-  border: 0px solid #d4d4d4;
-  outline: none;
-  border-radius: 0px;
-  line-height: 2.5rem;
-  font-size: 15px;
-  margin-top:15px;
-  padding:5px 10px;
-}
+body{ background:#fff; font-family:'Noto Sans KR',sans-serif; }
+input{ width:93%; border:0px solid #d4d4d4; outline:none; border-radius:0px; line-height:2.5rem; font-size:15px; margin-top:15px; padding:5px 10px; }
+
 /* Login CSS */
-.login-wrap{
-	position: absolute;
-	top:50%;
-	left:50%;
-	transform: translate(-50%, -50%);
-	width:310px;
-	background:#ffd900;
-	padding:60px 25px 80px;
-	text-align:center;
-	border:10px solid #004e98;
-}
+.login-wrap{ position: absolute; top:50%; left:50%; transform: translate(-50%, -50%); width:310px; background:#ffd900; padding:60px 25px 80px; text-align:center; border:10px solid #004e98; }
 .login-wrap .svg-wrap{ top: 35px; position:relative; }
 .login-wrap p{ font-size:11px; color:red; }
 
-svg{ width:100%; border-radius:50%; background:#fff; margin-bottom:40px; 
-  transform-style:preserve-3d; }
+svg{ width:100%; border-radius:50%; background:#fff; margin-bottom:40px; transform-style:preserve-3d; }
 svg .body-text-wrap .body-text{ font-size:4px; font-weight:700; }
 
 .eyes-lt,
@@ -60,29 +38,6 @@ svg g.eyes-skin path.eyes-double-eyelid-open-rt{ d: path('M 104.8,69 C 110,70 11
 svg g.eyes-skin path.eyes-double-eyelid-close-lt{ d: path('M 78.8,70 C 82,80.2 92,80.2 95.2,70 C 95,81 79,81 78.8,70'); }
 svg g.eyes-skin path.eyes-double-eyelid-close-rt{ d: path('M 104.8,70 C 107,81.2 119,81.2 121.2,70 C 121.8,82.3 104.2,82.3 104.8,70'); }
 
-div.login-wrap section.login-form button.login-btn{
-  width:100%;
-  margin-top:1rem;
-  padding-top:0.6rem;
-  padding-bottom:0.5rem;
-  background:#004e98;
-  color:#fff;
-  text-align:center;
-  cursor: pointer;
-  user-select:none;
-  transition:.2s all;
-  border:1px solid #004e98;
-  font-weight:700;
-  font-size:15px;
-}
-div.login-wrap section.login-form button.login-btn:hover{
-  background:#ffd900;
-  border:1px solid #004e98;
-  color:#000;
-}
-
-div.login-wrap section.login-form button.login-btn:active{
-  background:#ffd900;
-  border:1px solid #004e98;
-  color:#000;
-}
+.login-wrap .login-form .login-btn{ width:100%; margin-top:1rem; padding-top:0.6rem; padding-bottom:0.5rem; background:#004e98; color:#fff; text-align:center; cursor:pointer; user-select:none; transition:.2s all; border:1px solid #004e98; font-weight:700; font-size:15px; }
+.login-wrap .login-form .login-btn:hover{ background:#ffd900; border:1px solid #004e98; color:#000; }
+.login-wrap .login-form .login-btn:active{ background:#ffd900; border:1px solid #004e98; color:#000; }
